@@ -1,5 +1,7 @@
 # Multimodal Movie Genre Classification on MM-IMDb
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sarvamgami/mmimdb-fusion/blob/main/notebooks/run_all.ipynb)
+
 Predicts all genres of a movie (23-way multi-label) from its **poster** and **plot summary**, and
 compares unimodal baselines with **five fusion strategies**: early fusion, late fusion,
 intermediate (two-tower concatenation), modality attention and the Gated Multimodal Unit (GMU).
